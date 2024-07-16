@@ -7,6 +7,8 @@ public class ToLearnJenkinsExecutionTest {
 	@Test
 	public void execute() {
 		Reporter.log("jenkins class executed", true);
+		Reporter.log("without giving goals", true);
+
 	}
 
 }
